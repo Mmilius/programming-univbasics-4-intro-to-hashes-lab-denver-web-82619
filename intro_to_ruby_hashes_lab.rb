@@ -29,5 +29,7 @@ def update_counting_hash(hash, key)
     puts hash[key] = 1
   else
     puts "Key not fount!"
+    if hash[key] hash[key] += 1
+    else hash[key] = 1
 end
 end
