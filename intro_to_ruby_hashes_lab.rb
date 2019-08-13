@@ -17,7 +17,7 @@ end
 def my_hash_creator(key, value)
  new = {}
  new[:key] = value
- return new
+ new
 end
 
 def read_from_hash(hash, key)
