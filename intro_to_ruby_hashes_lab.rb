@@ -16,6 +16,7 @@ end
 
 def my_hash_creator(key, value)
  new = {}
+ new[:key]
    new [:key] = value
  new
 end
